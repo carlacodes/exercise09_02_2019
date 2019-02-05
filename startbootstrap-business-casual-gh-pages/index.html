@@ -91,11 +91,11 @@
  <!--beginning of form-->
     <section class="page-section cta">
     <div class="container" >
-      <form id="loginForm" onsubmit="processForm(); return false">
+      <form method='post' action='<?php createNewUser() ?>' name='loginForm'>
         <input id="email" type="email" placeholder="Enter email address" required value="carla.griffiths.16@ucl.ac.uk">
-        <label for="firstname">First Name: </label> <br>
+        <br> <label for="firstname">First Name: </label> <br>
         <input id="firstname" type="text" placeholder="Enter First Name:" required value="Carla">
-        <label for="lastname">Last Name: </label> <br>
+        <br> <label for="lastname">Last Name: </label> <br>
         <input id="lastname" type="text" placeholder="Enter Last Name:" required value="Griffiths">
 
         <input type="submit">

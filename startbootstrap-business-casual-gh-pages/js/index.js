@@ -6,8 +6,7 @@ function processForm(){
     let emailjs=document=document.querySelector("#email").value;
     //creating an instance variable called infoarrray
     let infoarray=[first_namejs, second_namejs,emailjs];
-
-    console.log(Object.values(infoarray));
+    console.log(Object.values(infoarray))
 }
 
 //alert("hello");
