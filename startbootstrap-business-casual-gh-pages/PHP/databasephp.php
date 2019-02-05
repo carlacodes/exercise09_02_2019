@@ -1,10 +1,12 @@
 <?php
 //Include the credentials
+
+function ConnectDatabase(){
 require_once('dbCredentials.php');
 
 //Connect to database (no error handling)
 //$connection = mysqli_connect('localhost','phpuser','basics','phpbasics');
-define("DBPORT",3306);
+//define("DBPORT",3306);
 //Connect to a database with error handling
 function connectToDb()
 {
@@ -32,4 +34,4 @@ function closeDb($connection)
     }
 }
 
-connectToDb();
+connectToDb();}
