@@ -1,7 +1,7 @@
 <?php
 //Include the credentials
 
-function ConnectDatabase(){
+
 require_once('dbCredentials.php');
 
 //Connect to database (no error handling)
@@ -34,4 +34,4 @@ function closeDb($connection)
     }
 }
 
-connectToDb();}
+connectToDb();
